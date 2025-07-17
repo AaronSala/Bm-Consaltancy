@@ -3,10 +3,10 @@ import { Award, Users, Clock, Star } from "lucide-react";
 
 export const VideographyAbout = () => {
   const stats = [
-    { icon: Users, number: "500+", label: "Happy Clients" },
-    { icon: Award, number: "50+", label: "Awards Won" },
-    { icon: Clock, number: "1000+", label: "Hours Filmed" },
-    { icon: Star, number: "5.0", label: "Average Rating" }
+    { icon: Users, number: "400+", label: "Happy Clients" },
+    { icon: Award, number: "30+", label: "Awards Won" },
+    { icon: Clock, number: "500+", label: "Hours Filmed" },
+    { icon: Star, number: "4.5", label: "Average Rating" }
   ];
 
   return (
