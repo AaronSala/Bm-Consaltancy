@@ -20,7 +20,7 @@ export const VideographyAbout = () => {
               </span>
             </h2>
             <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-              At CineVision, we believe every story deserves to be told with passion and precision. 
+              At Bm Consaltants, we believe every story deserves to be told with passion and precision. 
               Our team of experienced videographers and creative consultants work closely with you 
               to ensure your vision becomes a stunning reality.
             </p>

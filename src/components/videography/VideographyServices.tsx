@@ -37,7 +37,7 @@ export const VideographyServices = () => {
   ];
 
   return (
-    <section id="services" className="py-20 bg-gray-900">
+    <section id="services" className="py-20 ">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
@@ -67,7 +67,7 @@ export const VideographyServices = () => {
         </div>
 
         {/* About Section - Simplified */}
-        <div className="text-center bg-gradient-to-r from-yellow-400/10 to-orange-500/10 rounded-2xl p-12">
+        {/* <div className="text-center bg-gradient-to-r from-yellow-400/10 to-orange-500/10 rounded-2xl p-12">
           <h3 className="text-3xl font-bold mb-6 text-white">Why Choose CineVision?</h3>
           <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
             We believe every story deserves to be told with passion and precision. Our experienced team works closely with you to turn your vision into stunning visual content that connects, inspires, and delivers results.
@@ -90,7 +90,7 @@ export const VideographyServices = () => {
               <div className="text-gray-400">Rating</div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

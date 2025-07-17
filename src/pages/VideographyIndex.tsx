@@ -3,6 +3,7 @@ import { VideographyHero } from "@/components/videography/VideographyHero";
 import { VideographyServices } from "@/components/videography/VideographyServices";
 import { VideographyContact } from "@/components/videography/VideographyContact";
 import { VideographyHeader } from "@/components/videography/VideographyHeader";
+import { VideographyAbout } from "@/components/videography/VideographyAbout";
 
 const VideographyIndex = () => {
   return (
@@ -10,6 +11,7 @@ const VideographyIndex = () => {
       <VideographyHeader />
       <VideographyHero />
       <VideographyServices />
+      <VideographyAbout />
       <VideographyContact />
     </div>
   );
