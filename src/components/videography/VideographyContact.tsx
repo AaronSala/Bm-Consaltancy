@@ -51,7 +51,7 @@ export const VideographyContact = () => {
                   </div>
                   <div>
                     <p className="text-white font-semibold">Phone</p>
-                    <p className="text-gray-400">+1 (555) 123-4567</p>
+                    <p className="text-gray-400">+254xxxxxxxxx</p>
                   </div>
                 </div>
                 
@@ -61,7 +61,7 @@ export const VideographyContact = () => {
                   </div>
                   <div>
                     <p className="text-white font-semibold">Email</p>
-                    <p className="text-gray-400">hello@cinevision.com</p>
+                    <p className="text-gray-400">hello@bm.com</p>
                   </div>
                 </div>
                 
@@ -71,7 +71,7 @@ export const VideographyContact = () => {
                   </div>
                   <div>
                     <p className="text-white font-semibold">Location</p>
-                    <p className="text-gray-400">Los Angeles, CA</p>
+                    <p className="text-gray-400">Nairobi</p>
                   </div>
                 </div>
               </div>
@@ -139,7 +139,7 @@ export const VideographyContact = () => {
               <div className="flex items-center gap-2 mb-4">
                 <Camera className="w-8 h-8 text-yellow-400" />
                 <span className="text-2xl font-bold bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
-                  CineVision
+                  BM
                 </span>
               </div>
               <p className="text-gray-400 mb-6 max-w-md">
@@ -167,15 +167,15 @@ export const VideographyContact = () => {
             <div>
               <h4 className="text-white font-semibold mb-4">Contact</h4>
               <ul className="space-y-2 text-gray-400">
-                <li>+1 (555) 123-4567</li>
-                <li>hello@cinevision.com</li>
-                <li>Los Angeles, CA</li>
+                <li>+25407xxxxxxxx</li>
+                <li>hello@Bm.com</li>
+                <li>Nairobi</li>
               </ul>
             </div>
           </div>
           
           <div className="text-center text-gray-400">
-            <p>&copy; 2024 CineVision. All rights reserved.</p>
+            <p>&copy; 2024 Bm Consoltants. All rights reserved.</p>
           </div>
         </div>
       </div>

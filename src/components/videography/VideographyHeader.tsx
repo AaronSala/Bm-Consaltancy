@@ -13,7 +13,7 @@ export const VideographyHeader = () => {
           <div className="flex items-center gap-2">
             <Camera className="w-8 h-8 text-yellow-400" />
             <span className="text-2xl font-bold bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
-              CineVision
+              BM
             </span>
           </div>
           
