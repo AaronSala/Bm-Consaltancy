@@ -7,37 +7,37 @@ export const VideographyServices = () => {
     {
       icon: Camera,
       title: "Creative Concept Development",
-      description: "Transform your ideas into compelling visual narratives with our strategic creative process."
+      description: "Transform your ideas into compelling visual narratives."
     },
     {
       icon: Target,
-      title: "Script & Storyboard Consultation",
-      description: "Detailed planning and visualization to ensure your story flows seamlessly from start to finish."
+      title: "Script & Storyboard",
+      description: "Detailed planning and visualization for seamless storytelling."
     },
     {
       icon: MapPin,
-      title: "On-Site Filming Strategies",
-      description: "Professional location scouting and filming techniques optimized for your specific environment."
+      title: "On-Site Filming",
+      description: "Professional location scouting and filming strategies."
     },
     {
       icon: Scissors,
-      title: "Post-Production & Editing",
-      description: "Expert editing, color grading, and sound design to bring your vision to life."
+      title: "Post-Production",
+      description: "Expert editing, color grading, and sound design."
     },
     {
       icon: Lightbulb,
-      title: "Lighting & Camera Setup",
-      description: "Professional equipment selection and setup guidance for optimal visual quality."
+      title: "Lighting & Setup",
+      description: "Professional equipment and setup guidance."
     },
     {
       icon: Phone,
-      title: "Full Consultation Support",
-      description: "End-to-end guidance from initial concept through final delivery and distribution."
+      title: "Full Consultation",
+      description: "End-to-end guidance from concept to delivery."
     }
   ];
 
   return (
-    <section id="services" className="py-20 bg-gradient-to-b from-black to-gray-900">
+    <section id="services" className="py-20 bg-gray-900">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
@@ -46,25 +46,50 @@ export const VideographyServices = () => {
             </span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Whether you're launching a product, documenting a wedding, promoting a business, 
-            or building your YouTube presence, we've got you covered.
+            Whether you're launching a product, documenting a wedding, or building your YouTube presence, we've got you covered.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           {services.map((service, index) => (
-            <Card key={index} className="bg-gray-800/50 border-gray-700 hover:bg-gray-800/70 transition-all duration-300 group">
+            <Card key={index} className="bg-gray-800/50 border-gray-700 hover:bg-gray-800/70 transition-all duration-300">
               <CardContent className="p-6">
                 <div className="flex items-center gap-4 mb-4">
-                  <div className="p-3 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-lg group-hover:scale-110 transition-transform">
+                  <div className="p-3 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-lg">
                     <service.icon className="w-6 h-6 text-black" />
                   </div>
                   <h3 className="text-xl font-bold text-white">{service.title}</h3>
                 </div>
-                <p className="text-gray-300 leading-relaxed">{service.description}</p>
+                <p className="text-gray-300">{service.description}</p>
               </CardContent>
             </Card>
           ))}
+        </div>
+
+        {/* About Section - Simplified */}
+        <div className="text-center bg-gradient-to-r from-yellow-400/10 to-orange-500/10 rounded-2xl p-12">
+          <h3 className="text-3xl font-bold mb-6 text-white">Why Choose CineVision?</h3>
+          <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+            We believe every story deserves to be told with passion and precision. Our experienced team works closely with you to turn your vision into stunning visual content that connects, inspires, and delivers results.
+          </p>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div className="text-center">
+              <div className="text-3xl font-bold text-yellow-400 mb-1">500+</div>
+              <div className="text-gray-400">Happy Clients</div>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl font-bold text-yellow-400 mb-1">50+</div>
+              <div className="text-gray-400">Awards Won</div>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl font-bold text-yellow-400 mb-1">1000+</div>
+              <div className="text-gray-400">Hours Filmed</div>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl font-bold text-yellow-400 mb-1">5.0</div>
+              <div className="text-gray-400">Rating</div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
